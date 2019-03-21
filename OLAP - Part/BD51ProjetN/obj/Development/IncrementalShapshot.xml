@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>BD51ProjetN</Database>
+    <Server>PC-GI-2012-BDD\SQL2016</Server>
+    <ConnectionString>Data Source=PC-GI-2012-BDD\SQL2016;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>RM66HiCJo4f+mVm/U5Mt2Div0rg=04/12/2018 15:05:4904/12/2018 15:05:49</TimeStamp>
+        <ID>
+          <String>EMODE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>qHJPKEeAN/P7AY82tag6kpCrmjc=04/12/2018 15:28:3204/12/2018 15:06:20</TimeStamp>
+        <ID>
+          <String>EMODE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0h9Fdn/0cYjzK5T/byFCSxgPnrg=15/12/2018 11:51:0804/12/2018 15:16:50</TimeStamp>
+        <ID>
+          <String>CALENDAR YEAR LOOKUP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lQ6f5UeSKpCCCfgu0D4LMR9OkJo=05/12/2018 11:43:3504/12/2018 15:21:01</TimeStamp>
+        <ID>
+          <String>ARTICLE LOOKUP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zGeGUzUO4hQWd8WH6b6FgbD1IGs=15/12/2018 11:51:0804/12/2018 15:28:32</TimeStamp>
+        <ID>
+          <String>OUTLET LOOKUP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZHjFA9NTz5Fjch+gnJTX50JqWxM=04/12/2018 15:33:0504/12/2018 15:33:05</TimeStamp>
+        <ID>
+          <String>ARTICLE COLOR LOOKUP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>g8umfpI1sk+rtM+rb7wVwD55oVY=15/12/2018 11:51:0805/12/2018 09:38:42Qy5m5IGBRk6sD7vaLMGG/YYVJNI=05/12/2018 09:38:4305/12/2018 09:38:43</TimeStamp>
+        <ID>
+          <String>EMODE</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>vv3dzQts39Xj7ir6Hsp3y2R0Gmw=04/12/2018 15:04:2904/12/2018 15:04:28</TimeStamp>
+      <ID>
+        <String>BD51ProjetN</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-12-15T10:55:40.643333Z</LastDeployed>
+</DeploymentSnapshot>

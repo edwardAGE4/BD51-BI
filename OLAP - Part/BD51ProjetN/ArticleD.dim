@@ -1,0 +1,228 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="60508289-8630-473d-ac26-fd5ee4098358" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ARTICLE LOOKUP</ID>
+  <Name>ArticleD</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3194" scrolltop="-3995" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9869" y="11562" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="ARTICLE_LOOKUP" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3440" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000700d0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ARTICLE_LOOKUP" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3194</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3995</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="114">
+            <Shape Id="ARTICLE CODE" Expanded="true">
+              <Attributes>
+                <Attribute Id="ARTICLE CODE" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Categorie Label" Expanded="false">
+              <Attributes>
+                <Attribute Id="Categorie Label" />
+              </Attributes>
+              <Position x="167" y="20" />
+            </Shape>
+            <Shape Id="FAMILY NAME" Expanded="false">
+              <Attributes>
+                <Attribute Id="FAMILY NAME" />
+              </Attributes>
+              <Position x="315" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="57a526b0-1515-43da-a23e-18a814ed1969">
+    <DataSourceViewID>EMODE</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="5064f5d4-ea57-41b0-bbce-6cb7ac6f3744">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="02df9283-6c87-4138-88b0-69eb8e772409">
+      <ID>ARTICLE CODE</ID>
+      <Name>ARTICLE CODE</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="51139303-2d21-42db-97ed-911011d70281">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bcd2ed2c-0b04-4cb0-9a02-5e0b2cc6d096">
+            <TableID>dbo_ARTICLE_LOOKUP</TableID>
+            <ColumnID>ARTICLE_CODE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3c717543-4eaf-4e07-932e-083364433dac">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="77b812b9-c79c-4b54-a5bf-8eb3f2af0f24">
+          <TableID>dbo_ARTICLE_LOOKUP</TableID>
+          <ColumnID>ARTICLE_CODE</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8fcad99b-a448-4800-9ed7-29496143425c">
+          <AttributeID>Categorie Label</AttributeID>
+          <Name>Categorie Label</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aa3d03a6-6e2a-4c14-a035-9053f95b0b6e">
+      <ID>FAMILY NAME</ID>
+      <Name>FAMILY NAME</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f0848360-b85c-4bb3-b288-ca3154257bc6">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dc3dc442-7e60-4050-a53e-d27298bc7148">
+            <TableID>dbo_ARTICLE_LOOKUP</TableID>
+            <ColumnID>FAMILY_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="817661bb-42b1-4323-9feb-a828484579d7">
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9250c9d4-cce7-44e7-9265-478846cfbf9e">
+          <TableID>dbo_ARTICLE_LOOKUP</TableID>
+          <ColumnID>FAMILY_NAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9915e2e1-07bb-436d-bce3-c1150fc045bf">
+      <ID>Categorie Label</ID>
+      <Name>Categorie Label</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e373d4f8-d1e8-46a2-9581-2f8051d27ee2">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2614fbda-d534-4ae1-83c8-b62ac41a02dd">
+            <TableID>dbo_ARTICLE_LOOKUP</TableID>
+            <ColumnID>FAMILY_NAME</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ede1274b-037b-4f6a-b08a-ca93f680c79b">
+          <DataType>WChar</DataType>
+          <DataSize>56</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ced14e11-de6a-414c-a35c-c24391eccbdf">
+            <TableID>dbo_ARTICLE_LOOKUP</TableID>
+            <ColumnID>Categorie_x0026_Label</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="eba65a02-8061-4e04-86ac-0d8411c69400">
+        <DataType>WChar</DataType>
+        <DataSize>56</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d3546f4a-1a44-48f6-8d04-1acc763d2474">
+          <TableID>dbo_ARTICLE_LOOKUP</TableID>
+          <ColumnID>Categorie_x0026_Label</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a2235399-d3f7-4921-b3d8-7de283d6c1a8">
+          <AttributeID>FAMILY NAME</AttributeID>
+          <Name>FAMILY NAME</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="c89dc9b0-94a9-4544-be00-21359ecebe54">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="39376089-e1f5-483b-8781-ef2f286189b3">
+          <ID>FAMILY NAME</ID>
+          <Name>FAMILY NAME</Name>
+          <SourceAttributeID>FAMILY NAME</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ef8e57fb-6281-4346-a00c-33d5c2adb1a2">
+          <ID>Categorie Label</ID>
+          <Name>Categorie Label</Name>
+          <SourceAttributeID>Categorie Label</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6a75ed71-b304-41a5-853d-fb65b48b14e8">
+          <ID>ARTICLE CODE</ID>
+          <Name>ARTICLE CODE</Name>
+          <SourceAttributeID>ARTICLE CODE</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
